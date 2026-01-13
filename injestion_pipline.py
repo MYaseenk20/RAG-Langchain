@@ -4,7 +4,6 @@ from langchain_text_splitters import CharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
-
 def load_document(docs_path="docs"):
     """Load all text files from the docs directory"""
     print(f"Loading documents from {docs_path}")
